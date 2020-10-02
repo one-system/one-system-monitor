@@ -52,9 +52,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{430C9276-6FFD-4102-8516-74B4315BE458}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSystemMonitor.Cmd.Host", "host\OneSystemMonitor.Cmd.Host\OneSystemMonitor.Cmd.Host.csproj", "{05F78851-1675-493B-BE34-E6F0CFE010A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSystemMonitor.Cmd.Host", "host\OneSystemMonitor.Cmd.Host\OneSystemMonitor.Cmd.Host.csproj", "{05F78851-1675-493B-BE34-E6F0CFE010A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

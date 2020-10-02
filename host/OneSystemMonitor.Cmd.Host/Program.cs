@@ -11,7 +11,7 @@ namespace OneSystemMonitor.Cmd.Host
         {
             while (true)
             {
-                PingReply pingReply = PingOperation.PingResource("10.1.1.50");
+                PingReply pingReply = PingOperation.PingResource("svrwww05");
                 if (pingReply.Status != IPStatus.Success)
                 {
                     Console.WriteLine($"{DateTimeOffset.Now} {pingReply.Status} {pingReply.Address.ToString()} {pingReply.Buffer.Length} {pingReply.RoundtripTime}");

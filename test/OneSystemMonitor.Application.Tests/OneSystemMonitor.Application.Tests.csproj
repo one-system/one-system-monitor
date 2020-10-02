@@ -10,7 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\OneSystemMonitor.Application\OneSystemMonitor.Application.csproj" />
     <ProjectReference Include="..\OneSystemMonitor.Domain.Tests\OneSystemMonitor.Domain.Tests.csproj" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
   </ItemGroup>
 
 </Project>
